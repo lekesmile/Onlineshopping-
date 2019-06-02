@@ -1,0 +1,156 @@
+/* Reset browser default setting */
+
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+
+/* header */
+header{
+  padding:80px;
+  background-color: #f1f1f1;
+  background-image: url("../media/navfoto.png") no-repeat 0 -200px;
+
+}
+
+nav{
+  float: right;
+}
+nav a{
+  text-decoration: none;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+}
+nav a:hover{
+  color: #ff4057;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.headerh{
+  width: 40%;
+  float: left;
+}
+.headerh h1{
+  margin: 0;
+
+  color: #ff4057;
+}
+
+
+/* section */
+#box{
+  margin: 7% 10%;
+}
+
+/* form for feedback */
+
+.error {
+color: #ff4057;
+}
+
+.formContainer{
+  margin:auto !important;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #ff4057;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
+
+/* Contact */
+.dark{
+    padding:15px;
+    background:#444444;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .dakky{
+    padding: 25px 10px;
+    background: #444444;
+    width: 80%;
+    color: #ffffff;
+  }
+
+.map{
+  width: 50%;
+  float: left;
+
+}
+.stayintouch{
+  margin-top: 70px;
+}
+.fab{
+  color: #ff4057;
+  margin: 10px 25px;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+.fab:hover {
+  opacity: 1
+}
+.address{
+  float: left;
+  width: 40%;
+}
+.map_address{
+  display: inline-block;
+  width: 100%;
+}
+
+/* footer */
+
+
+footer{
+  background-color: #444444;
+  padding: 30px;
+  color: #ff4057;
+}
+.foocontainer{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+
+}
+.foo{
+  width: 30%;
+  float: left;
+}
+.foo h3{
+  margin: 10px 0;
+  color: #ff4057;
+}
+.foo em{
+  color: white;
+  margin-top: 15px;
+}
+.copyright{
+  text-align: center;
+  padding: 20px 10px;
+}
